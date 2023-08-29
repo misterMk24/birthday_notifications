@@ -1,0 +1,9 @@
+# Ignore .env files
+.env
+
+# Ignore JS files
+dist
+node_modules
+
+# ignore CDK artifacts
+cdk.out
