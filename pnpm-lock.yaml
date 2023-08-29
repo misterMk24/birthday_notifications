@@ -28,9 +28,6 @@ importers:
       '@notionhq/client':
         specifier: ^2.2.10
         version: 2.2.10
-      constructs:
-        specifier: ^10.0.0
-        version: 10.0.0
       db-clients:
         specifier: workspace:*
         version: link:../../packages/db-clients
@@ -67,10 +64,13 @@ importers:
         version: 20.4.5
       aws-cdk-lib:
         specifier: ^2.92.0
-        version: 2.92.0(constructs@10.0.0)
+        version: 2.92.0(constructs@10.2.70)
       aws-xray-sdk:
         specifier: ^3.5.1
         version: 3.5.1
+      constructs:
+        specifier: ^10.2.70
+        version: 10.2.70
       dotenv:
         specifier: ^16.3.1
         version: 16.3.1
@@ -2050,7 +2050,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /aws-cdk-lib@2.92.0(constructs@10.0.0):
+  /aws-cdk-lib@2.92.0(constructs@10.2.70):
     resolution: {integrity: sha512-J+SUFSnOt9u2GbY5QIABgjGNiw8bL/v0S3zsPhhO1dVwK+G7oE+bhLcAi3iILrw2sIpirNWH9K3W0by9K+cyMw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -2061,7 +2061,7 @@ packages:
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.1
       '@balena/dockerignore': 1.0.2
       case: 1.6.3
-      constructs: 10.0.0
+      constructs: 10.2.70
       fs-extra: 11.1.1
       ignore: 5.2.4
       jsonschema: 1.4.1
@@ -2381,10 +2381,10 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /constructs@10.0.0:
-    resolution: {integrity: sha512-MIwjmrXZpM9RtwyrSD4HotDIQl8HTdIefQhU+MU1asvtSyVN3kK8kjeUOWMFb+fdyT4RX3QvvcaaPBluLEX1SA==}
-    engines: {node: '>= 10.17.0'}
-    bundledDependencies: []
+  /constructs@10.2.70:
+    resolution: {integrity: sha512-z6zr1E8K/9tzJbCQzY0UGX0/oVKPFKu9C/mzEnghCG6TAJINnvlq0CMKm63XqqeMleadZYm5T3sZGJKcxJS/Pg==}
+    engines: {node: '>= 16.14.0'}
+    dev: true
 
   /convert-source-map@1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
